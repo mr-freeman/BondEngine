@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{4a7732e0-a1c4-4a72-aab3-473eead0c328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{3e959341-9d18-4d39-a623-0c57e48fcb0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\InputHandler">
+      <UniqueIdentifier>{bb978b82-aea5-459e-b6eb-334dcb20c6c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\ScriptSystem">
+      <UniqueIdentifier>{76e2f9c1-befe-4ee4-86c8-832b4197613b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\SoundSystem">
+      <UniqueIdentifier>{a663998b-dd98-4ca8-adfa-ed35cdef3db7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\INI Parser">
+      <UniqueIdentifier>{f3644db8-dfec-45cc-ae84-ae5102a2cf60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Codalla Loader">
+      <UniqueIdentifier>{c993196f-20f1-4ae6-9681-458af7627dd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\TinyXML2">
+      <UniqueIdentifier>{ca20f7fb-5f7c-408c-b2ab-84ca756ebf11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Memory Leaker">
+      <UniqueIdentifier>{b3d8983e-7f12-41c8-bd77-33a700f57755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{74f6250f-4179-4c45-907f-f5f5af42120e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\StdAfx">
+      <UniqueIdentifier>{f4ccea7e-9af3-4096-9e26-cc671f59f76f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Utils\Emyl">
+      <UniqueIdentifier>{c6c2134f-aab4-4a19-90f2-dfa7f2869230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Render">
+      <UniqueIdentifier>{dd6209c4-f3f6-4012-ac07-fe16c3bafac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Render\Light">
+      <UniqueIdentifier>{72a5b086-c9f8-463a-91b7-7d1c6ee5bb95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Render\GUI">
+      <UniqueIdentifier>{d0c34c38-ce95-451e-84db-af2a926a5d4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Render\Buffer">
+      <UniqueIdentifier>{31697aad-d4c6-42b3-96ff-bd46d3b4d0ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Render\Shader">
+      <UniqueIdentifier>{1e9a1db9-766e-4aa8-b3b6-42ebabdec8b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Render\AntiAliasing">
+      <UniqueIdentifier>{83becb9c-f7e3-46d2-8ec1-5c48328e52b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Render\D3D11Render">
+      <UniqueIdentifier>{014e98fd-1bba-4dc7-ac34-fdc41355c901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{20566692-8700-483c-b327-dd21aeda87f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\CMD">
+      <UniqueIdentifier>{2a394865-5825-4fb8-9fb7-1b4582316eed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\EntryPoint">
+      <UniqueIdentifier>{d17806d3-2773-4d97-98ad-bc639d6fccb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Resource">
+      <UniqueIdentifier>{b0fd8bb8-28ff-458f-81a4-29aedf000f1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Common">
+      <UniqueIdentifier>{5253e75a-4c42-4894-96b8-613c2531c5cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{8d4bf03d-b6b6-4aaf-9158-a42b44dbe724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Common">
+      <UniqueIdentifier>{c20859ca-7aee-40eb-af5d-bab239606586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\StateSwitcher">
+      <UniqueIdentifier>{15dc59d2-433b-4311-90bf-56b2e573d486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Level">
+      <UniqueIdentifier>{84d173e6-f0ce-4f3d-b58c-bb81cf4aff01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Actor">
+      <UniqueIdentifier>{6b2de5af-9e0f-4dab-a97b-3741d83286da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Test">
+      <UniqueIdentifier>{041b26f5-4b82-4002-92c8-ac13de9ebc93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Camera">
+      <UniqueIdentifier>{6b1c213b-6d2d-44ba-b592-421710c11a2f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StdAfx.hpp">
+      <Filter>Misc\StdAfx</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Misc\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="BondEngine.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashScreen.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound2D.hpp">
+      <Filter>Components\SoundSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound3D.hpp">
+      <Filter>Components\SoundSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemInfo.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.hpp">
+      <Filter>Game\StateSwitcher</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay.hpp">
+      <Filter>Game\StateSwitcher</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelLoad.hpp">
+      <Filter>Game\StateSwitcher</Filter>
+    </ClInclude>
+    <ClInclude Include="ICreature.hpp">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameObject.hpp">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptSystem.hpp">
+      <Filter>Components\ScriptSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ILight.hpp">
+      <Filter>Components\Render\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSCounter.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.hpp">
+      <Filter>Components\InputHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSystem.hpp">
+      <Filter>Components\SoundSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="StateSwitcher.hpp">
+      <Filter>Game\StateSwitcher</Filter>
+    </ClInclude>
+    <ClInclude Include="Build.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GUISystem.hpp">
+      <Filter>Components\Render\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.hpp">
+      <Filter>Game\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.hpp">
+      <Filter>Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.hpp">
+      <Filter>Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Save.hpp">
+      <Filter>Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.hpp">
+      <Filter>Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third-party\LeksysINI\iniparser.hpp">
+      <Filter>Utils\INI Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleCube.hpp">
+      <Filter>Game\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.hpp">
+      <Filter>Components\Render\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.hpp">
+      <Filter>Components\Render\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelShader.hpp">
+      <Filter>Components\Render\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexShader.hpp">
+      <Filter>Components\Render\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryShader.hpp">
+      <Filter>Components\Render\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="IShader.hpp">
+      <Filter>Components\Render\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiSampleAA.hpp">
+      <Filter>Components\Render\AntiAliasing</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.hpp">
+      <Filter>Game\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="LocaleManager.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Date.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomNumberGenerator.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment.hpp">
+      <Filter>Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="File.hpp">
+      <Filter>Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.hpp">
+      <Filter>Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.hpp">
+      <Filter>Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Script.hpp">
+      <Filter>Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11Render.hpp">
+      <Filter>Components\Render\D3D11Render</Filter>
+    </ClInclude>
+    <ClInclude Include="IRender.hpp">
+      <Filter>Components\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Error.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.hpp">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IEngine.hpp">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.hpp">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.hpp">
+      <Filter>Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.hpp">
+      <Filter>Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third-party\tinyxml2\tinyxml2.h">
+      <Filter>Utils\TinyXML2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third-party\Emyl\emyl.h">
+      <Filter>Utils\Emyl</Filter>
+    </ClInclude>
+    <ClInclude Include="CMDLine.hpp">
+      <Filter>Core\CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="CMDUserSetting.hpp">
+      <Filter>Core\CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="CMDApplication.hpp">
+      <Filter>Core\CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="CodallaLoader.hpp">
+      <Filter>Utils\Codalla Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSCamera.hpp">
+      <Filter>Game\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraSwitcher.hpp">
+      <Filter>Game\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ICamera.hpp">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIConsole.hpp">
+      <Filter>Game\Test</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Misc\StdAfx</Filter>
+    </ClCompile>
+    <ClCompile Include="BondEngine.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashScreen.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemInfo.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay.cpp">
+      <Filter>Game\StateSwitcher</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSCounter.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Game\StateSwitcher</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelLoad.cpp">
+      <Filter>Game\StateSwitcher</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptSystem.cpp">
+      <Filter>Components\ScriptSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>Components\InputHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSystem.cpp">
+      <Filter>Components\SoundSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound2D.cpp">
+      <Filter>Components\SoundSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Build.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="StateSwitcher.cpp">
+      <Filter>Game\StateSwitcher</Filter>
+    </ClCompile>
+    <ClCompile Include="GUISystem.cpp">
+      <Filter>Components\Render\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Game\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Save.cpp">
+      <Filter>Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleCube.cpp">
+      <Filter>Game\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>Components\Render\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>Components\Render\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelShader.cpp">
+      <Filter>Components\Render\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexShader.cpp">
+      <Filter>Components\Render\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryShader.cpp">
+      <Filter>Components\Render\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiSampleAA.cpp">
+      <Filter>Components\Render\AntiAliasing</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Game\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="LocaleManager.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment.cpp">
+      <Filter>Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11Render.cpp">
+      <Filter>Components\Render\D3D11Render</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Misc\EntryPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="Error.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third-party\tinyxml2\tinyxml2.cpp">
+      <Filter>Utils\TinyXML2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third-party\Emyl\emyl.cpp">
+      <Filter>Utils\Emyl</Filter>
+    </ClCompile>
+    <ClCompile Include="CMDLine.cpp">
+      <Filter>Core\CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="CMDUserSetting.cpp">
+      <Filter>Core\CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="CMDApplication.cpp">
+      <Filter>Core\CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="CodallaLoader.cpp">
+      <Filter>Utils\Codalla Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSCamera.cpp">
+      <Filter>Game\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraSwitcher.cpp">
+      <Filter>Game\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIConsole.cpp">
+      <Filter>Game\Test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BondEngine.rc">
+      <Filter>Misc\Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Misc\Resources</Filter>
+    </Image>
+    <Image Include="BondEngine.ico">
+      <Filter>Misc\Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="WarningDisable.ruleset">
+      <Filter>Misc\Resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>
