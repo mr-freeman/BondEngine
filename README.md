@@ -25,12 +25,11 @@ Dependencies
 - Diligent Core/Tools
 - gainput
 - spdlog
+- sol2
 
 Build-in Libraries
 -------------
-- sol2
 - lua5.3.5
 - Emyl
-- ImGUI
 - LeksysINI
 - ogg-vorbis
