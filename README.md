@@ -1,14 +1,14 @@
 ![BondEngine](https://github.com/bondarenko-me/BondEngine/blob/master/logo.png)
 
-Lightweight Win32 game engine, that written C++17.
+Lightweight Win32 game engine, that is written in C++17.
 It's more reasonable to call it a game framework.
 
 Components
 ---------
 - Core
 - Input
-- Script
 - Sound
+- Script
 - Render
 - Utility
 
@@ -29,7 +29,7 @@ Dependencies
 
 Build-in Libraries
 -------------
-- lua5.3.5
+- lua 5.3.5
 - Emyl
 - LeksysINI
 - ogg-vorbis
