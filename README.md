@@ -1,6 +1,6 @@
 ![BondEngine](https://github.com/bondarenko-me/BondEngine/blob/master/logo.png)
 
-A lightweight and flexible 3D Game Engine, written in C++17, divided into architectural parts, in particular 'Components'. Easy to use. And my last C++ project so far.
+A lightweight and flexible 3D Game Engine, written in C++17, divided into architectural parts, in particular 'Components'. Easy to use & modern style.
 
 ### Components
 - Core
