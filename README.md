@@ -2,8 +2,7 @@
 
 A lightweight and flexible 3D Game Engine, written in C++17, divided into architectural parts, in particular 'Components'. Easy to use. And my last C++ project so far.
 
-Components
----------
+## Components
 - Core
 - Render
 - Input
@@ -12,8 +11,7 @@ Components
 - Game
 - Utility
 
-Technologies
-------------
+## Technologies
 - Direct3D 11 (MSAA, Anisotropic Filtering, GUI, Shaders)
 - OpenAL (OGG streaming)
 - Lua 5.3.5 support
