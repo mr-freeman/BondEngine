@@ -21,8 +21,8 @@ Technologies
 
 Prerequisites
 -------------
-- [Visual Studio 2015](http://www.visualstudio.com/)
-- [DirectX SDK 2010](https://www.microsoft.com/en-us/download/details.aspx?id=6812)
+- Visual Studio 2015
+- DirectX SDK 2010
 
 Dependencies
 ------------
