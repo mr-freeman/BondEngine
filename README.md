@@ -1,7 +1,7 @@
 ![BondEngine](https://github.com/bondarenko-me/BondEngine/blob/master/logo.png)
 
 Lightweight Win32 x64 game engine, written in C++17.
-
+![Build](https://travis-ci.org/bondarenko-me/BondEngine)
 Components
 ---------
 - Core
