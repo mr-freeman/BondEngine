@@ -14,11 +14,10 @@ Components
 
 Technologies
 ------------
-- D3D11 (MSAA, Anisotropic Filtering, GUI, Shaders)
+- Direct3D 11 (MSAA, Anisotropic Filtering, GUI, Shaders)
 - OpenAL (OGG streaming)
-- Win32 (I/O keyboard + mouse)
 - Lua 5.3.5 support
-- Build-in Utilities (memory leaker, ini parser, splash screen, log)
+- Build-in Utilities (leak detector, ini parser, splash screen, log)
 
 Prerequisites
 -------------
