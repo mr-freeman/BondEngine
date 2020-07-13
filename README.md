@@ -1,6 +1,6 @@
 ![BondEngine](https://github.com/bondarenko-me/BondEngine/blob/master/logo.png)
 
-Lightweight Win32 x64 game engine, written in C++17.
+Lightweight and flexible Win32 x64 game engine, written in C++17.
 
 Components
 ---------
@@ -17,7 +17,7 @@ Technologies
 - D3D11 (MSAA, Anisotropic Filtering, GUI, Shaders)
 - OpenAL (OGG streaming)
 - Win32 (I/O keyboard + mouse)
-- Lua 5.3.5 Support
+- Lua 5.3.5 support
 - Build-in Utilities (memory leaker, ini parser, splash screen, log)
 
 Prerequisites
