@@ -6,9 +6,11 @@
 
 #include <D3D11Render.hpp>
 #include <SplashScreen.hpp>
-#include <CMDApplication.hpp>
 #include <FileSystem.hpp>
 #include <SystemInfo.hpp>
+
+#include <CMDApplication.hpp>
+#include <CMDUserSetting.hpp>
 
 #include <Build.hpp>
 #include <Timer.hpp>
@@ -59,6 +61,9 @@ namespace be
         startup_settings.msaa_sample_count = user_settings->getVideoSTG().msaa_sample_count.value;
 
         startup_settings.volume = user_settings->getSoundSTG().game_volume.value;
+
+        cmd_line = make_unique<core::cmd::CMDLine>();
+        cmd_line->initialize(commands);
         // Pre initialization end
 
         main_window = make_unique<be::utils::MainWindow>(info::FULL_NAME,

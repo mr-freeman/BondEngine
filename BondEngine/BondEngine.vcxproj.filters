@@ -19,15 +19,6 @@
     <Filter Include="Utils\INI Parser">
       <UniqueIdentifier>{f3644db8-dfec-45cc-ae84-ae5102a2cf60}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Utils\Codalla Loader">
-      <UniqueIdentifier>{c993196f-20f1-4ae6-9681-458af7627dd7}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Utils\TinyXML2">
-      <UniqueIdentifier>{ca20f7fb-5f7c-408c-b2ab-84ca756ebf11}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Utils\Memory Leaker">
-      <UniqueIdentifier>{b3d8983e-7f12-41c8-bd77-33a700f57755}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Misc">
       <UniqueIdentifier>{74f6250f-4179-4c45-907f-f5f5af42120e}</UniqueIdentifier>
     </Filter>
@@ -105,9 +96,6 @@
     </ClInclude>
     <ClInclude Include="Resource.h">
       <Filter>Misc\Resources</Filter>
-    </ClInclude>
-    <ClInclude Include="BondEngine.hpp">
-      <Filter>Core</Filter>
     </ClInclude>
     <ClInclude Include="Window.hpp">
       <Filter>Utils</Filter>
@@ -226,9 +214,6 @@
     <ClInclude Include="Time.hpp">
       <Filter>Utils</Filter>
     </ClInclude>
-    <ClInclude Include="RandomNumberGenerator.h">
-      <Filter>Utils</Filter>
-    </ClInclude>
     <ClInclude Include="Environment.hpp">
       <Filter>Game\Level</Filter>
     </ClInclude>
@@ -271,9 +256,6 @@
     <ClInclude Include="Sound.hpp">
       <Filter>Core\Resource</Filter>
     </ClInclude>
-    <ClInclude Include="..\third-party\tinyxml2\tinyxml2.h">
-      <Filter>Utils\TinyXML2</Filter>
-    </ClInclude>
     <ClInclude Include="..\third-party\Emyl\emyl.h">
       <Filter>Utils\Emyl</Filter>
     </ClInclude>
@@ -285,9 +267,6 @@
     </ClInclude>
     <ClInclude Include="CMDApplication.hpp">
       <Filter>Core\CMD</Filter>
-    </ClInclude>
-    <ClInclude Include="CodallaLoader.hpp">
-      <Filter>Utils\Codalla Loader</Filter>
     </ClInclude>
     <ClInclude Include="FPSCamera.hpp">
       <Filter>Game\Camera</Filter>
@@ -301,13 +280,14 @@
     <ClInclude Include="GUIConsole.hpp">
       <Filter>Game\Test</Filter>
     </ClInclude>
+    <ClInclude Include="RandomNumberGenerator.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="BondEngine.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="StdAfx.cpp">
       <Filter>Misc\StdAfx</Filter>
-    </ClCompile>
-    <ClCompile Include="BondEngine.cpp">
-      <Filter>Core</Filter>
     </ClCompile>
     <ClCompile Include="Window.cpp">
       <Filter>Utils</Filter>
@@ -420,9 +400,6 @@
     <ClCompile Include="FileSystem.cpp">
       <Filter>Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\third-party\tinyxml2\tinyxml2.cpp">
-      <Filter>Utils\TinyXML2</Filter>
-    </ClCompile>
     <ClCompile Include="..\third-party\Emyl\emyl.cpp">
       <Filter>Utils\Emyl</Filter>
     </ClCompile>
@@ -435,9 +412,6 @@
     <ClCompile Include="CMDApplication.cpp">
       <Filter>Core\CMD</Filter>
     </ClCompile>
-    <ClCompile Include="CodallaLoader.cpp">
-      <Filter>Utils\Codalla Loader</Filter>
-    </ClCompile>
     <ClCompile Include="FPSCamera.cpp">
       <Filter>Game\Camera</Filter>
     </ClCompile>
@@ -447,6 +421,7 @@
     <ClCompile Include="GUIConsole.cpp">
       <Filter>Game\Test</Filter>
     </ClCompile>
+    <ClCompile Include="BondEngine.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="BondEngine.rc">

@@ -53,4 +53,27 @@ namespace be::utils::render
             return *this;
         }
     };
+
+    struct PointLight : public ILight
+    {
+        PointLight()
+        {
+            memset(this, 0, sizeof(PointLight));
+        }
+
+        PointLight operator=(const PointLight& light)
+        {
+            this->intesivity = light.intesivity;
+            this->direction = light.direction;
+            this->position = light.position;
+            this->ambient = light.ambient;
+            this->diffuse = light.diffuse;
+
+            return *this;
+        }
+
+    public:
+        Diligent::Math::float4 position;
+        Diligent::Math::float4 intesivity;
+    };
 }

@@ -20,7 +20,6 @@ namespace be
         IEngine operator=(IEngine&&) = delete;
 
     public:
-        virtual void preinitialize() = 0;
         virtual void initialize() = 0;
         virtual void run() = 0;
         virtual void finalize() = 0;

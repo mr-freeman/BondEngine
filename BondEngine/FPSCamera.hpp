@@ -19,7 +19,7 @@ namespace be::game
     {
     public:
         FPSCamera();
-        ~FPSCamera() = default;
+       ~FPSCamera() = default;
 
         FPSCamera(const FPSCamera&) = delete;
         FPSCamera(FPSCamera&&) = delete;
@@ -80,12 +80,9 @@ namespace be::game
         float4x4 m_ProjMatrix;
 
     public:
-        float delta_x = 0.f;
-        float delta_y = 0.f;
-
         float m_fov = 75.f; // default
         float m_fRotationSpeed = 0.001f;
-        float m_fMoveSpeed = .02f;
+        float m_fMoveSpeed = .01f;
         float m_fCurrentSpeed = 0.f;
 
         float m_fYawAngle = 0;

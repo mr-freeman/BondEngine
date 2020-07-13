@@ -26,7 +26,9 @@ namespace be::gui
         ImGui::CreateContext();
         imgui->CreateDeviceObjects();
         imgui->InvalidateDeviceObjects();
-        utils::log::debug("Eventually I have run Diligent Graphics Engine with ImGUI (after one day of debugging)"s); // 12.05.2020 21:35
+
+        // 12.05.2020 21:35
+        utils::log::trace("Eventually I have run Diligent Graphics Engine with ImGUI (after one day of debugging)"s); 
 
         // TODO: Load style/gui elements' size from game configs.
         ImGuiStyle& style = ImGui::GetStyle();

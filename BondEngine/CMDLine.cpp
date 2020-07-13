@@ -20,15 +20,15 @@ namespace be::core::cmd
         EngineCommand cpu_info = { "cpu_info", false }; // text: show cpu info (name, threads, usage)
         EngineCommand camera_info = { "camera_info", false }; // text: shows camera info (position, look_at vector)
 
-        EngineCommand god = { "god", false }; // game: allow free_camera command, actor inevitability
-        EngineCommand free_camera = { "free_camera", false }; // game: fly camera
+        EngineCommand god = { "god", false }; // game: allow fly command, actor inevitability
         EngineCommand save = { "save", false }; // game: save
         EngineCommand load = { "load", false }; // game: load save
+        EngineCommand fly = { "fly", false }; // game: fly camera
         EngineCommand fov = { "fov", 75.f }; // game: changes field of view
 
         commands = { exit,
                      clear, help, info,
                      fps_info, cpu_info, camera_info,
-                     god, free_camera, save, load, fov };
+                     god, fly, save, load, fov };
     }
 }

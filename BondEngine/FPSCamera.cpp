@@ -104,8 +104,6 @@ namespace be::game
         //-----------------------------------------------------------------
         auto GetAdjustedProjectionMatrix = [&](float FOV, float NearPlane, float FarPlane)
         {
-            // const auto& SCDesc = rend->getSwapChain()->GetDesc();
-
             auto AspectRatio = static_cast<float>(1366) / static_cast<float>(768);
             auto XScale = 0.f, YScale = 0.f;
 

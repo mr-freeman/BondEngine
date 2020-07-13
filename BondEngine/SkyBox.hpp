@@ -23,7 +23,7 @@ namespace be::game
         SkyBox operator=(SkyBox&&) = delete;
 
     public:
-        // initialize
+        void initialize();
         // render
 
     private:

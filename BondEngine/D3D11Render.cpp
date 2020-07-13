@@ -45,6 +45,27 @@ namespace be::render
         }
     }
 
+    void DiligentMassageCallback(DEBUG_MESSAGE_SEVERITY Severity, const Char* Message, const char* Function, const char* File, int Line)
+    {
+        switch (Severity)
+        {
+            case DEBUG_MESSAGE_SEVERITY::DEBUG_MESSAGE_SEVERITY_INFO:
+                info("DiligentEngine: {}", Message);
+                return;
+            case DEBUG_MESSAGE_SEVERITY::DEBUG_MESSAGE_SEVERITY_WARNING:
+                be::utils::log::warn("DiligentEngine: {}", Message);
+                return;
+            case DEBUG_MESSAGE_SEVERITY::DEBUG_MESSAGE_SEVERITY_ERROR:
+                be::utils::log::error("DiligentEngine: {}", Message);
+                return;
+            case DEBUG_MESSAGE_SEVERITY::DEBUG_MESSAGE_SEVERITY_FATAL_ERROR:
+                be::utils::log::critical("DiligentEngine: {}", Message);
+                return;
+            default:
+                return;
+        };
+    }
+
     void D3D11Render::initialize()
     {
         info("{} initialization is started"s, name);
@@ -63,7 +84,10 @@ namespace be::render
         auto GetEngineFactoryD3D11 = LoadGraphicsEngineD3D11();
         pFactoryD3D11 = GetEngineFactoryD3D11();
 
+        // SetDebugMessageCallback(DebugMessageCallback);
+
 #ifdef BE_DEBUG
+        EngineCI.DebugMessageCallback = DiligentMassageCallback;
         EngineCI.DebugFlags |= D3D11_DEBUG_FLAG_CREATE_DEBUG_DEVICE;
 #endif
 
@@ -72,8 +96,8 @@ namespace be::render
         SwapChainDesc SCDesc;
         SCDesc.BufferCount = 2;
         
-        SCDesc.Width = 1366;
-        SCDesc.Height = 768;
+        SCDesc.Width = swap_chain_desc_size.value().x;
+        SCDesc.Height = swap_chain_desc_size.value().y;
 
         SCDesc.ColorBufferFormat = texture_format;
         SCDesc.DepthBufferFormat = TEX_FORMAT_D32_FLOAT;

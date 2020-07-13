@@ -10,7 +10,7 @@ namespace be::utils
     {
     public:
         Build() = default;
-        ~Build() = default;
+       ~Build() = default;
 
         Build(const Build&) = delete;
         Build(Build&&) = delete;

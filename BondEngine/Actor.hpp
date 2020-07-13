@@ -15,8 +15,8 @@ namespace be::game
         Actor() = default;
        ~Actor() = default;
 
-        Actor(const Actor&) = delete;
-        Actor(Actor&&) = delete;
+        Actor(const Actor&) = default;
+        Actor(Actor&&) = default;
 
         Actor operator=(const Actor&) = delete;
         Actor operator=(Actor&&) = delete;
@@ -39,36 +39,47 @@ namespace be::game
     public:
         void updateStats()
         {
-            if (health > 100)
+            if (is_inevitable)
+            {
                 health = 100;
-
-            if (health < 0)
-                health = 0;
-
-            if (stamina > 100)
                 stamina = 100;
+            }
+            else
+            {
+                if (health > 100)
+                    health = 100;
 
-            if (stamina < 0)
-                stamina = 0; // Ctrl+C, Ctrl+V ;)
+                if (health < 0)
+                    health = 0;
+
+                if (stamina > 100)
+                    stamina = 100;
+
+                if (stamina < 0)
+                    stamina = 0; // Ctrl+C, Ctrl+V ;)
+
+                if (health > 0)
+                    state = State::ALIVE;
+                else
+                    state = State::DEAD;
+            }
         };
 
     private:
-        // Mesh
         unique_ptr<FPSCamera> camera;
 
         shared_ptr<sound::Sound2D> ui; // inventory etc
         shared_ptr<sound::Sound2D> voice; // player hear it literally in fps, so let it be 2D
-        shared_ptr<sound::Sound2D> booster;
+        shared_ptr<sound::Sound2D> booster; // medkit sounds etc
         shared_ptr<sound::Sound2D> notification; // missions, messages etc
 
         State state;
 
-        // Stats.
         string name;
         uint health;
         uint stamina;
 
-        bool is_armour_worn; // not sure, it's needed program
-        uint armour;
+        bool is_inevitable;
+        bool is_armour_worn;
     };
 }

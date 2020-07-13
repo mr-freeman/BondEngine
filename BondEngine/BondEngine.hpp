@@ -6,8 +6,9 @@
 
 #include <MultiSampleAA.hpp>
 #include <StateSwitcher.hpp>
-#include <CMDUserSetting.hpp>
 #include <FPSCounter.hpp>
+
+#include <CMDLine.hpp>
 
 #include <InputHandler.hpp>
 #include <ScriptSystem.hpp>
@@ -73,8 +74,6 @@ namespace be
         };
 
     public:
-        void preinitialize() override final;
-
         // Initialize all the game engine components one by one.
         void initialize() override final;
 
@@ -91,6 +90,7 @@ namespace be
         shared_ptr<gui::GUISystem> gui_system;
         unique_ptr<render::MultiSampleAA> msaa;
         unique_ptr<game::StateSwitcher> state_switcher;
+        unique_ptr<core::cmd::CMDLine> cmd_line;
         ///---------------
 
         // Engine Components
@@ -101,7 +101,7 @@ namespace be
         ///---------------
 
         Desc startup_settings;
-        vector<Command> commands;
+        vector<IEngine::Command> commands;
         IEngine::State state = IEngine::State::NONE;
     };
 }

@@ -21,9 +21,9 @@ namespace be::script
         ScriptSystem operator=(ScriptSystem&&) = delete;
 
     public:
-        virtual void initialize() override;
-        virtual void run() override;
-        virtual void finalize() override;
+        void initialize() override;
+        void run() override;
+        void finalize() override;
 
     public:
         sol::state& getLuaState() { return lua; }

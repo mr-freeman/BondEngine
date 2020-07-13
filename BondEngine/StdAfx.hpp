@@ -166,8 +166,14 @@ namespace be
 
     namespace core
     {
-        // filesystem, fatalerror
+        // class FileSystem
+        // class FatalError
         // reserved.
+    }
+
+    namespace utils
+    {
+
     }
 
     namespace math = Diligent::Math;
