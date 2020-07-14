@@ -16,9 +16,9 @@ A lightweight and flexible 3D Game Engine, written in C++17, divided into parts,
 - Direct3D 11 (Due to my PC caps)
 - Lua Scripting
 - Splash Screen
-- ogg-vorbis Streaming
+- ogg-vorbis streaming
 - Memory Leak Detector
-- .ttf\.otf fonts loading
+- .ttf fonts loading
 - Syncronized Command Console
 
 ### Prerequisites
