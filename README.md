@@ -21,7 +21,7 @@ A lightweight and flexible 3D Game Engine, written in C++17, divided into parts,
 - Visual Studio 2015
 - DirectX SDK 2010
 
-### Functionality       | Library
+Functionality       | Library
 ----------------------- | ------------------------------------------
 Graphics Engine         | [diligent-engine](https://github.com/DiligentGraphics/DiligentEngine)
 Mesh Loading            | [assimp](https://github.com/assimp/assimp)
