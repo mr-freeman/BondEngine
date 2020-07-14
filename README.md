@@ -21,11 +21,14 @@ A lightweight and flexible 3D Game Engine, written in C++17, divided into parts,
 - Visual Studio 2015
 - DirectX SDK 2010
 
-### Dependencies
-- Diligent Core/Tools
-- gainput
-- spdlog
-- sol2
+### Functionality       | Library
+----------------------- | ------------------------------------------
+Graphics Engine         | [diligent-engine](https://github.com/DiligentGraphics/DiligentEngine)
+Mesh Loading            | [assimp](https://github.com/assimp/assimp)
+Scripting               | [sol2](https://github.com/ThePhD/sol2)
+Logging                 | [spdlog](https://github.com/gabime/spdlog)
+Input                   | [gainput](https://github.com/jkuhlmann/gainput)
+GUI                     | [imgui](https://github.com/ocornut/imgui)
 
 ### Build-in Libraries
 - Emyl
