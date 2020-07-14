@@ -18,6 +18,7 @@ A lightweight and flexible 3D Game Engine, written in C++17, divided into parts,
 - Splash Screen
 - ogg-vorbis Streaming
 - Memory Leak Detector
+- .ttf\.otf fonts loading
 - Syncronized Command Console
 
 ### Prerequisites
