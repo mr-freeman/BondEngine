@@ -31,4 +31,4 @@ GUI                     | [imgui](https://github.com/ocornut/imgui)
 - lua 5.3.5
 - ogg-vorbis
 
-##### Inspired by the code of Dmitro Yiasinev (X-Ray Engine).
+##### Inspired by the code of Dmytro Yassinev (X-Ray Engine).
