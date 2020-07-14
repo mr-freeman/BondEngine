@@ -12,11 +12,11 @@ A lightweight and flexible 3D Game Engine, written in C++17, divided into parts,
 - Utility
 
 ### Features
-- Lua
-- OGG
-- D3D11
 - Launcher
+- Direct3D 11 (Due to my PC caps)
+- Lua Scripting
 - Splash Screen
+- ogg-vorbis Streaming
 - Memory Leak Detector
 - Syncronized Command Console
 
