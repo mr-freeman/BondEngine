@@ -1,6 +1,6 @@
 ![BondEngine](https://github.com/bondarenko-me/BondEngine/blob/master/logo.png)
 
-A lightweight and flexible 3D Game Engine, written in C++17, divided into architectural parts, in particular 'Components'. Easy to use & modern style.
+A lightweight and flexible 3D Game Engine, written in C++17, divided into parts, in particular 'Components'. Castomizable, easy to use & modern style.
 
 ### Components
 - Core
@@ -34,5 +34,4 @@ A lightweight and flexible 3D Game Engine, written in C++17, divided into archit
 - ogg-vorbis
 - LeakDetector
 
-#####
-Inspired by Dmitro Yiasinev
+##### Inspired by the code of Dmitro Yiasinev (X-Ray Engine).
